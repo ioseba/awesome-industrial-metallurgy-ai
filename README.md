@@ -121,7 +121,6 @@ Software libraries, spectral processing engines, and deep learning architectures
 - [**MKastek/simLIBS**](https://github.com/MKastek/simLIBS) - Python framework simulating LIBS emission spectra with direct NIST Atomic Spectra Database interfaces for calibration-free elemental quantification.
 - [**kstenio/libssa**](https://github.com/kstenio/libssa) - Laser-Induced Breakdown Spectroscopy spectra analyzer featuring automated baseline correction, peak deconvolution, and multi-element profiling.
 - [**aleponce4/libs-spectroscopy-workbench**](https://github.com/aleponce4/libs-spectroscopy-workbench) - Interactive workbench for LIBS spectral processing, baseline subtraction, NIST spectral line identification, and simulated acquisition.
-- [**chcomin/pyPIPS**](https://github.com/chcomin/pyPIPS) - Python library for processing plasma spectroscopy data, extracting electron temperature ($T_e$) and electron density ($n_e$) from Stark broadening.
 - [**derb12/pybaselines**](https://github.com/derb12/pybaselines) - Comprehensive baseline correction algorithms (AsLS, airPLS, SNIP, rolling ball) essential for preprocessing raw LIBS and Raman scrap spectra.
 
 ### X-Ray Fluorescence and Transmission
@@ -135,7 +134,7 @@ Software libraries, spectral processing engines, and deep learning architectures
 
 - [**spectralpython/spectral**](https://github.com/spectralpython/spectral) - Comprehensive Python package for hyperspectral and multispectral image processing, powering optical sorting lines to separate scrap fractions.
 - [**Kongsea/DeepSpectroscopy**](https://github.com/Kongsea/DeepSpectroscopy) - Deep learning models and spectral pre-processing pipelines tailored for rapid elemental classification and quantitative spectral regression.
-- [**cem-miller/pysptools**](https://github.com/cem-miller/pysptools) - Spectral Python Tools for endmember extraction, spectral unmixing, and abundance mapping in mineral and scrap sorting conveyors.
+- [**ctherien/pysptools**](https://github.com/ctherien/pysptools) - Spectral Python Tools for endmember extraction, spectral unmixing, and abundance mapping in mineral and scrap sorting conveyors.
 - [**zichengzichengzi/Scrap_Steel_Image_Dataset**](https://github.com/zichengzichengzi/Scrap_Steel_Image_Dataset) - Open-source annotated benchmark dataset for scrap metal grading, object detection, and hazardous foreign object classification on sorting belts.
 - [**arthursn/transformation-diagrams**](https://github.com/arthursn/transformation-diagrams) - Computes time-temperature-transformation (TTT) and continuous cooling transformation (CCT) diagrams based on thermodynamic diffusion equations.
 
@@ -146,8 +145,8 @@ Software libraries, spectral processing engines, and deep learning architectures
 Pre-melt processing technologies for post-consumer packaging (UBC - Used Beverage Cans), coated sheet, and profile turnings. Focuses on low-temperature pyrolysis (450–550°C), organic coating removal, volatile organic compound (VOC) destruction, and prevention of premature aluminum oxidation.
 
 - [**Cantera/cantera**](https://github.com/Cantera/cantera) - Chemical kinetics suite for modeling thermal pyrolysis of polymer coatings, lacquer off-gas compositions, and regenerative thermal oxidizer (RTO) destruction efficiency.
-- [**chempy/chempy**](https://github.com/chempy/chempy) - Python package for chemistry problem-solving, mass balances, chemical reaction equilibria, and thermo-gravimetric analysis (TGA) kinetic modeling.
-- [**sandialabs/pyro**](https://github.com/sandialabs/pyro) - Pyrolysis and thermal decomposition simulation routines for organic coatings on metallic substrates under controlled atmospheres.
+- [**bjodah/chempy**](https://github.com/bjodah/chempy) - Python package for chemistry problem-solving, mass balances, chemical reaction equilibria, and thermo-gravimetric analysis (TGA) kinetic modeling.
+- [**lautenberger/gpyro**](https://github.com/lautenberger/gpyro) - Generalized pyrolysis and thermal decomposition simulation engine for organic coatings and combustible solids under inert or oxidative atmospheres.
 
 ---
 

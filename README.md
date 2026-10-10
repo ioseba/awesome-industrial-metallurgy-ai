@@ -1,9 +1,10 @@
+# Awesome Industrial Metallurgy AI [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+
 <p align="center">
   <img src="assets/banner.jpg" alt="Awesome Secondary Aluminum Recycling &amp; Pyrometallurgy" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai/stargazers"><img src="https://img.shields.io/github/stars/ioseba/awesome-industrial-metallurgy-ai?style=flat-square&color=f59e0b" alt="Stars"></a>
   <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai/network/members"><img src="https://img.shields.io/github/forks/ioseba/awesome-industrial-metallurgy-ai?style=flat-square&color=38bdf8" alt="Forks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-22c55e.svg?style=flat-square" alt="License: CC0 1.0"></a>

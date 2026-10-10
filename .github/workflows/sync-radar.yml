@@ -1,0 +1,55 @@
+name: Ecosystem Health Check & Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly run on Sundays
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify Link Reachability & Metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - << 'EOF'
+          import re, urllib.request, json, os
+
+          token = os.environ.get('GITHUB_TOKEN')
+          headers = {'User-Agent': 'Mozilla/5.0'}
+          if token:
+              headers['Authorization'] = f'token {token}'
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          github_repos = set(re.findall(r'https://github\.com/([a-zA-Z0-9_\-\.]+/[a-zA-Z0-9_\-\.]+)(?:[#\)/"\s]|$)', content))
+          # Exclude self-references and special paths
+          filtered = [r for r in github_repos if not any(x in r for x in ['sindresorhus', 'awesome', 'ioseba/awesome', 'topics', 'badges'])]
+
+          print(f"Discovered {len(filtered)} external repository links to monitor.")
+          healthy = 0
+          for repo in sorted(filtered):
+              api_url = f"https://api.github.com/repos/{repo}"
+              try:
+                  req = urllib.request.Request(api_url, headers=headers)
+                  with urllib.request.urlopen(req, timeout=10) as resp:
+                      if resp.status == 200:
+                          healthy += 1
+              except Exception as e:
+                  print(f"Warning: Issue connecting to {repo}: {e}")
+
+          print(f"Health verification complete: {healthy}/{len(filtered)} repositories confirmed active.")
+          EOF

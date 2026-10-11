@@ -37,10 +37,13 @@ A canonical, scientifically curated directory of computational metallurgy, radio
   - [Industrial Surface Defect and Anomaly Detection](#industrial-surface-defect-and-anomaly-detection)
 - [Molten Bath Dynamics, Degassing and Casthouse CFD](#molten-bath-dynamics-degassing-and-casthouse-cfd)
 - [Charge Optimization and Metallurgical Blending](#charge-optimization-and-metallurgical-blending)
+- [Furnace Digital Twins and Process Analytics](#furnace-digital-twins-and-process-analytics)
 - [Industrial IoT, SCADA Systems and Sensor Telemetry](#industrial-iot-scada-systems-and-sensor-telemetry)
   - [OPC-UA and Industrial Protocols](#opc-ua-and-industrial-protocols)
   - [SCADA Visualization and Time-Series Historians](#scada-visualization-and-time-series-historians)
 - [Edge AI Acceleration and Industrial Vision Runtimes](#edge-ai-acceleration-and-industrial-vision-runtimes)
+- [Life Cycle Assessment, Material Flow and Carbon Accounting](#life-cycle-assessment-material-flow-and-carbon-accounting)
+- [Scrap Market and Price Analytics](#scrap-market-and-price-analytics)
 - [Benchmark Datasets and Defect Compendiums](#benchmark-datasets-and-defect-compendiums)
 - [Scientific Literature and Foundational References](#scientific-literature-and-foundational-references)
   - [Foundational Handbooks and Textbooks](#foundational-handbooks-and-textbooks)
@@ -122,6 +125,11 @@ Software libraries, spectral processing engines, and deep learning architectures
 - [**kstenio/libssa**](https://github.com/kstenio/libssa) - Laser-Induced Breakdown Spectroscopy spectra analyzer featuring automated baseline correction, peak deconvolution, and multi-element profiling.
 - [**aleponce4/libs-spectroscopy-workbench**](https://github.com/aleponce4/libs-spectroscopy-workbench) - Interactive workbench for LIBS spectral processing, baseline subtraction, NIST spectral line identification, and simulated acquisition.
 - [**derb12/pybaselines**](https://github.com/derb12/pybaselines) - Comprehensive baseline correction algorithms (AsLS, airPLS, SNIP, rolling ball) essential for preprocessing raw LIBS and Raman scrap spectra.
+- [**Bluejee/OpenLIBS**](https://github.com/Bluejee/OpenLIBS) - Python package for computational LIBS spectrum analysis with preprocessing and elemental line analysis modules.
+- [**jason-r-becker/LIBS**](https://github.com/jason-r-becker/LIBS) - Analysis codes for Laser-Induced Breakdown Spectroscopy datasets, including spectral preprocessing and multivariate calibration.
+- [**mrDIMAS/AutomatedLIBS**](https://github.com/mrDIMAS/AutomatedLIBS) - Windows desktop application (C#) for automated LIBS spectra analysis and element line visualization.
+- [**mberdakin/spectral-classification-toolkit**](https://github.com/mberdakin/spectral-classification-toolkit) - TensorFlow workflow for supervised classification of LIBS spectra, with notebooks and raw spectral data.
+- [**FMalerba/LIBS-Spectra-Classification**](https://github.com/FMalerba/LIBS-Spectra-Classification) - Autoencoder-based generation and classification of 1D LIBS spectra for measurement-point classification.
 
 ### X-Ray Fluorescence and Transmission
 
@@ -129,6 +137,7 @@ Software libraries, spectral processing engines, and deep learning architectures
 - [**Mobaia/PhySpec**](https://github.com/Mobaia/PhySpec) - Physics-guided augmentation and multi-scale Transformer network for low-resource spectroscopic analysis and quantitative XRF alloy composition.
 - [**tomopy/tomopy**](https://github.com/tomopy/tomopy) - Open-source Python toolbox for synchrotron and industrial X-ray tomography data processing and 3D reconstruction, vital for non-destructive cast ingot internal porosity inspection.
 - [**tschoonj/xraylib**](https://github.com/tschoonj/xraylib) - Core C/Python library for X-ray matter interaction cross sections, fluorescence yields, and photoionization probabilities.
+- [**IMANE-abrya/Machine_Learning_pour_la_prediction_des_familles_aluminium**](https://github.com/IMANE-abrya/Machine_Learning_pour_la_prediction_des_familles_aluminium) - Lasso-based classification of aluminium alloy families from elemental composition (spectrometer/XRF-style chemistry), notebook in French.
 
 ### Hyperspectral and Optical Sorting
 
@@ -137,6 +146,14 @@ Software libraries, spectral processing engines, and deep learning architectures
 - [**ctherien/pysptools**](https://github.com/ctherien/pysptools) - Spectral Python Tools for endmember extraction, spectral unmixing, and abundance mapping in mineral and scrap sorting conveyors.
 - [**zichengzichengzi/Scrap_Steel_Image_Dataset**](https://github.com/zichengzichengzi/Scrap_Steel_Image_Dataset) - Open-source annotated benchmark dataset for scrap metal grading, object detection, and hazardous foreign object classification on sorting belts.
 - [**arthursn/transformation-diagrams**](https://github.com/arthursn/transformation-diagrams) - Computes time-temperature-transformation (TTT) and continuous cooling transformation (CCT) diagrams based on thermodynamic diffusion equations.
+- [**jinkeying02/Aluminium-Scrap-Classification**](https://github.com/jinkeying02/Aluminium-Scrap-Classification) - Multi-stream deep learning framework (ResNet, DenseNet, MobileNet, VGG fusion) for cast vs wrought aluminium scrap classification.
+- [**ChiragVaghela10/automated_metal_scrap_classification**](https://github.com/ChiragVaghela10/automated_metal_scrap_classification) - Master's thesis implementation of automated metal scrap classification in railway containers using computer vision.
+- [**patil215/scrapsort**](https://github.com/patil215/scrapsort) - Convolutional neural network classifier plus a hardware sorting device for automatically separating recyclable materials.
+- [**ualUsham/Scrap_classifier**](https://github.com/ualUsham/Scrap_classifier) - CNN image classifier distinguishing aluminium scrap from other metal scrap categories.
+- [**Kxmrxn-19/metal-scrap-sorting-technology**](https://github.com/Kxmrxn-19/metal-scrap-sorting-technology) - CNN pipeline for classifying images of metal scrap for automated sorting.
+- [**SantiagoIvan/scrap-classifier**](https://github.com/SantiagoIvan/scrap-classifier) - Industrial scrap image classifier with bundled dataset and training notebooks (Spanish).
+- [**Anipro-10/Deep-Learning-based-Metal-Scrap-Classification**](https://github.com/Anipro-10/Deep-Learning-based-Metal-Scrap-Classification) - Deep learning based metal scrap image classification models.
+- [**dejavu07/project-yolov8**](https://github.com/dejavu07/project-yolov8) - YOLOv8 and OpenCV system with servo actuation for separating aluminium cans from tin cans.
 
 ---
 
@@ -171,6 +188,8 @@ Equimolar NaCl-KCl salt systems with fluoride additions (CaF₂, Na₃AlF₆ cry
 - [**dogusariturk/PhaseForge**](https://github.com/dogusariturk/PhaseForge) - High-throughput alloy phase diagram prediction integrating machine learning interatomic potentials (MLIPs), ATAT, and CALPHAD modeling.
 - [**ORNL-CEES/thermochimica**](https://github.com/ORNL-CEES/thermochimica) - High-performance computational library for multi-component equilibrium thermodynamics designed for direct coupling into multiphysics simulations.
 - [**materialsproject/pymatgen**](https://github.com/materialsproject/pymatgen) - Materials analysis package for generating phase diagrams, Pourbaix diagrams, and thermodynamic stability analyses of aluminum intermetallics.
+- [**materialsgenomefoundation/kawin**](https://github.com/materialsgenomefoundation/kawin) - Precipitation and diffusion simulation (KWN model) built on CALPHAD, useful for intermetallic formation in recycled aluminium alloys.
+- [**selvakumar-22/ReAlux-Web**](https://github.com/selvakumar-22/ReAlux-Web) - AI-assisted decision support system for aluminium dross recycling routes.
 
 ### Heat Transfer and Thermal Plant Balancing
 
@@ -178,6 +197,11 @@ Equimolar NaCl-KCl salt systems with fluoride additions (CaF₂, Na₃AlF₆ cry
 - [**CalebBell/thermo**](https://github.com/CalebBell/thermo) - Extensive thermodynamic property calculation engine for pure chemicals and industrial mixtures (viscosity, thermal conductivity, enthalpy, heat capacity).
 - [**oemof/tespy**](https://github.com/oemof/tespy) - Thermal Energy System Simulator for mass and energy balances in thermal plants, recuperators, heat exchangers, and off-gas recovery loops.
 - [**CoolProp/CoolProp**](https://github.com/CoolProp/CoolProp) - High-precision formulation of fluid and gaseous properties across wide temperature and pressure ranges, vital for furnace exhaust modeling.
+- [**ElmerCSC/elmerfem**](https://github.com/ElmerCSC/elmerfem) - Open-source multiphysics finite element suite (heat transfer, electromagnetics, fluid flow), suited to induction furnace and refractory lining simulation.
+- [**nemocrys/test-cz-induction**](https://github.com/nemocrys/test-cz-induction) - Elmer-based thermal simulation of an induction-heated furnace, a reusable template for induction melting heat balances.
+- [**powino6350/Thermal-Performance-of-a-TRF**](https://github.com/powino6350/Thermal-Performance-of-a-TRF) - Computational thermal performance study and dataset of a tilting rotary furnace (TRF) for metal recovery.
+- [**owino1212/TRF-Thermal-Optimization**](https://github.com/owino1212/TRF-Thermal-Optimization) - Mesh configurations, automation scripts and numerical simulation datasets for tilting rotary furnace thermal optimization.
+- [**Olivera19Omar/ProjectHeatBalance**](https://github.com/Olivera19Omar/ProjectHeatBalance) - Jupyter notebooks computing heat balances of an industrial melting furnace (flue gas, wall and charge losses).
 
 ---
 
@@ -221,6 +245,11 @@ Hydrodynamics of liquid aluminum during tapping, rotary impeller degassing (Ar/N
 - [**lanl/truchas**](https://github.com/lanl/truchas) - Developed by Los Alamos National Laboratory: 3D multi-physics simulation suite tailored for metal casting, fluid flow, heat transfer, and phase-change solidification.
 - [**damask-multiphysics/DAMASK**](https://github.com/damask-multiphysics/DAMASK) - The Düsseldorf Advanced Material Simulation Kit: multi-physics simulation of crystal plasticity, grain orientation, and mechanical behavior of cast alloys.
 - [**Moose-Framework/moose**](https://github.com/idaholab/moose) - Multiphysics Object Oriented Simulation Environment developed by Idaho National Laboratory, capable of modeling phase-field solidification and thermomechanical stresses.
+- [**blebon/directChillFoam**](https://github.com/blebon/directChillFoam) - OpenFOAM solver for Direct-Chill (DC) casting of aluminium alloys, with tutorials and validation cases.
+- [**sreekarrs/scdccFoam**](https://github.com/sreekarrs/scdccFoam) - Conventional Direct-Chill casting solidification solver built on the OpenFOAM-v1712 library.
+- [**Gouyoku-py/casthouse**](https://github.com/Gouyoku-py/casthouse) - Streamlit web app bundling daily casthouse calculation tools (alloy change, dilution, additions).
+- [**Gouyoku-py/industree**](https://github.com/Gouyoku-py/industree) - Set of simple Streamlit tools for everyday casthouse tasks.
+- [**tttonggg/ai-aluminium-prelim**](https://github.com/tttonggg/ai-aluminium-prelim) - Literature review with verified DOIs on AI/ML for aluminium billet casting and hot extrusion.
 
 ---
 
@@ -233,6 +262,42 @@ Mathematical programming and constraint satisfaction solvers applied to least-co
 - [**scipy/scipy**](https://github.com/scipy/scipy) - Fundamental optimization algorithms (`scipy.optimize.linprog`) for elemental mass balance reconciliation and charge composition solver backends.
 - [**Pyomo/pyomo**](https://github.com/Pyomo/pyomo) - Robust Python-based open-source optimization modeling environment supporting linear, mixed-integer, and non-linear metallurgical constraints.
 - [**cvxpy/cvxpy**](https://github.com/cvxpy/cvxpy) - Python-embedded modeling language for convex optimization problems, useful for non-linear recovery yield and dilution cost functions.
+- [**anasedbu/aluminum-scrap-yield-optimizer**](https://github.com/anasedbu/aluminum-scrap-yield-optimizer) - Single-file browser tool for aluminium cast houses: scrap inputs in, process plan, metal yield and verification report out.
+- [**alitsai6/ReMaDe-Al-ABS-LP**](https://github.com/alitsai6/ReMaDe-Al-ABS-LP) - Linear blending optimization model for U.S. secondary aluminium (ABS) production with scrap composition, demand and emission datasets.
+- [**rishikjhunjhunwala/alloyCostOptimisation**](https://github.com/rishikjhunjhunwala/alloyCostOptimisation) - Django web application optimizing aluminium alloy formulations by linear programming at minimum cost.
+- [**ebrahimmfadae/charge**](https://github.com/ebrahimmfadae/charge) - C++ library for furnace charge optimization with solver and database tests.
+- [**bavrillon/PI-Recylage_Al**](https://github.com/bavrillon/PI-Recylage_Al) - Streamlit and LP tool optimizing the use of a scrap in aluminium alloys by cost and CO2, with and without the scrap.
+- [**Rubanzer/Furnace**](https://github.com/Rubanzer/Furnace) - Streamlit furnace charge mix optimizer (SciPy) with material yields, cost breakdown and energy per heat.
+- [**steel-mint/charge_mixer**](https://github.com/steel-mint/charge_mixer) - SciPy-based charge mixer algorithm computing least-cost raw material blends from JSON inputs.
+- [**pv-toledo/eaf-optimizer**](https://github.com/pv-toledo/eaf-optimizer) - Full-stack lowest-cost scrap mix optimizer for Electric Arc Furnace charges under chemistry and yield constraints.
+- [**Ayush0704-av/Steel-Charge-Scrap-Mix-Optimization**](https://github.com/Ayush0704-av/Steel-Charge-Scrap-Mix-Optimization) - Scrap mix optimization model for steel furnace charges.
+- [**jp-1709/AI_FoundryX**](https://github.com/jp-1709/AI_FoundryX) - Machine learning charge mixture recommendation and melt correction pipeline for foundries.
+- [**nhibtarha1914-sudo/Foundry-Charge-Calculator**](https://github.com/nhibtarha1914-sudo/Foundry-Charge-Calculator) - Browser-based foundry charge calculator building a target chemistry from scrap trimmed with binary alloys.
+- [**GouravJr/ReAlloyVis**](https://github.com/GouravJr/ReAlloyVis) - Visual decision support for recycled aluminium alloy discovery from scrap mixtures.
+- [**houcem24/RecycleAlloy-Explorer**](https://github.com/houcem24/RecycleAlloy-Explorer) - Interactive D3.js screening of sustainable aluminium alloys produced from recycled scrap sources.
+- [**DagogoGrant/scrap-alchemist-visual-analytics**](https://github.com/DagogoGrant/scrap-alchemist-visual-analytics) - D3.js visual analytics dashboard for discovering recycled aluminium alloy candidates (PCA, t-SNE, k-means).
+- [**Imami123456/ScrapLens-Dashboard**](https://github.com/Imami123456/ScrapLens-Dashboard) - Coordinated multiple-view dashboard for sustainable aluminium alloy discovery and scrap blending.
+- [**yasamanjs/ML-assisted-alloy-design-using-wrought-aluminum-alloys**](https://github.com/yasamanjs/ML-assisted-alloy-design-using-wrought-aluminum-alloys) - Code and dataset for machine learning assisted design of wrought aluminium alloys.
+- [**elphick/mass-composition**](https://github.com/elphick/mass-composition) - Python package for mass-composition math, flowsheets and visualisation, useful for scrap and melt mass balances.
+
+---
+
+## Furnace Digital Twins and Process Analytics
+
+Data-driven furnace monitoring, anomaly detection, digital twins and process models for melting furnaces; electric arc and induction furnace projects are included as transferable references.
+
+- [**Kim-dong-eon/Real-time-melting-furnace-anomaly-detection-system**](https://github.com/Kim-dong-eon/Real-time-melting-furnace-anomaly-detection-system) - Real-time convolutional autoencoder anomaly detection on melting furnace camera streams (Korean).
+- [**JordiTFN/HornosRuffini**](https://github.com/JordiTFN/HornosRuffini) - Data, queries and scripts for monitoring and control of aluminium foundry melting furnaces (Spanish).
+- [**anatoliy5606-dotcom/furnace-monitor**](https://github.com/anatoliy5606-dotcom/furnace-monitor) - Streamlit dashboard for melting efficiency and cost monitoring from furnace records.
+- [**dsnikhil1/Digital-Twin-for-Induction-Furnaces**](https://github.com/dsnikhil1/Digital-Twin-for-Induction-Furnaces) - Digital twin notebooks for improving efficiency and safety of induction furnaces.
+- [**igorrniemietz/industrial-digital-twin**](https://github.com/igorrniemietz/industrial-digital-twin) - 3D web digital twin of an aluminium can recycling plant (ReciclaBR Latasa, Brazil).
+- [**Jorgesd13/AP1**](https://github.com/Jorgesd13/AP1) - Data science project for an annealing furnace digital twin.
+- [**SayYoungMan/EAF_modelling**](https://github.com/SayYoungMan/EAF_modelling) - MATLAB model of an Electric Arc Furnace under continuous operation.
+- [**javiers2004/Electric-Arc-Furnace-Prediction**](https://github.com/javiers2004/Electric-Arc-Furnace-Prediction) - Machine learning prediction of temperature and sulphur content in an Electric Arc Furnace (Spanish).
+- [**jvelar01/EAF_Cost_Optimization**](https://github.com/jvelar01/EAF_Cost_Optimization) - Regression-based analysis of cost optimization possibilities in an Electric Arc Furnace.
+- [**vtavakkoli/eaf-cognitive-twin**](https://github.com/vtavakkoli/eaf-cognitive-twin) - Agentic AI control layer for an Electric Arc Furnace digital twin with simulation and training tools.
+- [**jialianzhang/Converter_Model**](https://github.com/jialianzhang/Converter_Model) - Coupled-reaction converter process model predicting bath temperature, metal and slag composition, with test suite (Chinese).
+- [**JinsuKim-1102/RHF-HPO**](https://github.com/JinsuKim-1102/RHF-HPO) - Hybrid rotary hearth furnace model for carbon control under limited data.
 
 ---
 
@@ -269,6 +334,28 @@ Low-latency deep learning inference engines and runtimes optimized for factory-f
 
 ---
 
+## Life Cycle Assessment, Material Flow and Carbon Accounting
+
+Life cycle assessment, dynamic material flow analysis and carbon border (CBAM) accounting for primary and recycled aluminium.
+
+- [**brightway-lca/brightway2**](https://github.com/brightway-lca/brightway2) - Python framework for life cycle assessment calculations and inventory modelling.
+- [**SIDIDENG/US_Aluminum_DMFA**](https://github.com/SIDIDENG/US_Aluminum_DMFA) - Dynamic material flow analysis code for decarbonizing the U.S. aluminium ecosystem.
+- [**amilovanoff/jie_milovanoff_et_al_2020**](https://github.com/amilovanoff/jie_milovanoff_et_al_2020) - Input data, code and results of a vehicle fleet aluminium material flow and emissions model (Milovanoff et al., 2020).
+- [**aishujadhav-art/AluminiumCBAM**](https://github.com/aishujadhav-art/AluminiumCBAM) - Browser calculator estimating EU and UK CBAM carbon cost on aluminium sheet and the effect of low-emission supply.
+- [**Coder-philosopher/Vulcan**](https://github.com/Coder-philosopher/Vulcan) - Web application for life cycle assessment of aluminium products.
+- [**Vedant9892/lca_tool_aluminium**](https://github.com/Vedant9892/lca_tool_aluminium) - Life cycle assessment tool for aluminium production routes.
+
+---
+
+## Scrap Market and Price Analytics
+
+Forecasting and decision support for scrap and LME aluminium prices.
+
+- [**cristianleoo/Scrap-Metal-Directional-Price-Prediction**](https://github.com/cristianleoo/Scrap-Metal-Directional-Price-Prediction) - Directional scrap metal price prediction combining financial news sentiment (FinBERT) and machine learning.
+- [**Iremerdl/LME-Market-Decision-Support-System**](https://github.com/Iremerdl/LME-Market-Decision-Support-System) - LSTM-based decision support system for LME aluminium and copper markets.
+
+---
+
 ## Benchmark Datasets and Defect Compendiums
 
 Open-access annotated datasets for training and benchmarking computer vision, spectroscopy, and anomaly models in metallurgical environments:
@@ -280,6 +367,13 @@ Open-access annotated datasets for training and benchmarking computer vision, sp
 - [**Severstal Kaggle Steel Defect Dataset**](https://github.com/khornlund/severstal-steel-defect-detection) - High-resolution defect segmentation dataset for rolled strip metal on high-speed continuous processing lines.
 - [**Industrial Invisible Gas IR Dataset (IIG)**](https://github.com/FisherYuuri/The-Industrial-Invisible-Gas-IIG-Dataset) - Radiometric infrared sequences capturing thermal plumes and fugitive gas emissions for high-temperature plant monitoring.
 - [**Multi-Surface Inspection Defect Dataset**](https://github.com/abin24/Surface-Inspection-defect-detection-dataset) - Multi-substrate industrial defect collection spanning textured metal surfaces, cracks, and pitting.
+- [**Aluminium Alloy Scrap Dataset (Cambridge)**](https://zenodo.org/records/21341828) - Zenodo, CC BY 4.0. Aluminium alloy scrap dataset for alloy identification and sorting research.
+- [**Images of Aluminum Recyclable Waste (RECLAIM)**](https://zenodo.org/records/11504630) - Zenodo, CC BY 4.0. Images of aluminium recyclable waste on a conveyor for detection and sorting models.
+- [**Ronal Melting and Holding Furnace Data**](https://github.com/LeonardoLed/Ronal_DataFJ2026) - CSV process datasets from aluminium wheel melting and holding furnaces with variable descriptions.
+- [**MicroAl-Dataset**](https://github.com/neulmc/MicroAl-Dataset) - Weakly annotated aluminium alloy microstructure image dataset for visual perception tasks.
+- [**AAD-Xray**](https://github.com/zhaomu-a/AAD-Xray) - Industrial X-ray defect detection dataset for automotive aluminium alloy die castings.
+- [**Aluminium Alloy Data and Code**](https://github.com/mskrcnis/al-alloy-data-code) - Aluminium alloy composition-property dataset with reproducible cross-validation and figure code.
+- [**Metalurgica Data**](https://github.com/elqvixote/metalurgica-data) - Open database of metallurgical and mining process datasets, synthetic and official.
 
 ---
 
@@ -299,12 +393,12 @@ Peer-reviewed literature, engineering handbooks, and seminal publications underp
 
 - [**Preparation and Melting of Scrap in Secondary Aluminum Production: A Review**](https://doi.org/10.3390/met8040249) - **S. Capuzzi, G. Timelli (2018)**, *Metals*, 8(4), 249. Comprehensive examination of sorting technologies, thermal decoating, rotary and reverberatory furnace kinetics, and metal recovery optimization.
 - [**Improving Aluminum Recycling: A Survey of Sorting and Impurity Removal Technologies**](https://doi.org/10.1016/j.resconrec.2011.10.010) - **G. Gaustad, E. Olivetti, R. Kirchain (2012)**, *Resources, Conservation and Recycling*, 58, 79-87. Detailed evaluation of spectroscopic sorting, chemical refining limits, and tramp element build-up.
-- [**Fast Single Piece Identification and Classification of Aluminum Scrap Using LIBS**](https://doi.org/10.1016/j.sab.2011.08.004) - **P. Werheit, C. Fricke-Begemann, M. Schröder, R. Noll (2011)**, *Spectrochimica Acta Part B*, 66(9-10), 690-702. Seminal industrial demonstration of high-speed Laser-Induced Breakdown Spectroscopy classifying moving scrap pieces at 2 m/s.
-- [**The Properties and Uses of Salt Fluxes in Secondary Aluminium Smelting**](https://doi.org/10.1007/s11837-998-0283-3) - **T. A. Utigard, K. Friesen, R. R. Roy, J. Lim, A. Celik (1998)**, *JOM*, 50(11), 38-43. Fundamental thermodynamics of NaCl-KCl molten salt mixtures, interfacial tension mechanisms, and metal droplet coalescing in dross.
-- [**Recovery of Aluminum from Aluminum Dross**](https://doi.org/10.1016/S1471-5317(03)00010-0) - **J. A. S. Tenório, D. C. R. Espinosa (2002)**, *Journal of Light Metals*, 2(4), 281-286. Thermodynamic analysis of rotary salt furnace slag and mechanical separation of metal from dross skimmings.
-- [**Corrosion Mechanism and Prevention of Refractories in Aluminum Melting Furnaces**](https://doi.org/10.1016/j.ceramint.2020.04.015) - **K. Xiao, M. Chen, W. Bao (2020)**, *Ceramics International*, 46(11), 17180-17192. Investigation into corundum ($Al_2O_3$) growth, molten aluminum penetration into refractory bricks, and anti-wetting additive performance.
-- [**The Aluminium Industry: State-of-the-Art Technologies and Waste Heat Recovery**](https://doi.org/10.1016/j.ijft.2020.100007) - **D. Brough, H. Jouhara (2020)**, *International Journal of Thermofluids*, 1-2, 100007. Thermomechanical energy balance of melting operations, recuperative burners, and flue gas waste heat recovery loops.
-- [**Alloy Design for Recycled Aluminium: Strategies and Solutions**](https://doi.org/10.1007/978-3-319-48147-0_165) - **B. Prillhofer, H. Spenger, P. J. Uggowitzer (2014)**, *Light Metals 2014*, 1007-1012. Methods for designing high-performance wrought and cast alloys with expanded tolerance for Fe, Si, and Zn scrap tramps.
+- [**Fast Single Piece Identification with a 3D Scanning LIBS for Aluminium Cast and Wrought Alloys Recycling**](https://doi.org/10.1039/c1ja10096c) - **P. Werheit, C. Fricke-Begemann, M. Gesing, R. Noll (2011)**, *Journal of Analytical Atomic Spectrometry*, 26(11), 2166. Seminal industrial demonstration of high-speed Laser-Induced Breakdown Spectroscopy classifying moving scrap pieces at 2 m/s.
+- [**The Properties and Uses of Fluxes in Molten Aluminum Processing**](https://doi.org/10.1007/s11837-998-0285-7) - **T. A. Utigard (1998)**, *JOM*, 50(11), 38-43. Fundamental thermodynamics of NaCl-KCl molten salt mixtures, interfacial tension mechanisms, and metal droplet coalescing in dross.
+- **Recovery of Aluminum from Aluminum Dross** - **J. A. S. Tenório, D. C. R. Espinosa (2002)**, *Journal of Light Metals*, 2(4), 281-286. Thermodynamic analysis of rotary salt furnace slag and mechanical separation of metal from dross skimmings. *(DOI link removed: the previously cited DOI does not resolve to this work and no verified DOI was found in Crossref.)*
+- **Corrosion Mechanism and Prevention of Refractories in Aluminum Melting Furnaces** - **K. Xiao, M. Chen, W. Bao (2020)**, *Ceramics International*, 46(11), 17180-17192. Investigation into corundum ($Al_2O_3$) growth, molten aluminum penetration into refractory bricks, and anti-wetting additive performance. *(DOI link removed: the previously cited DOI does not resolve to this work and no verified DOI was found in Crossref.)*
+- [**The Aluminium Industry: A Review on State-of-the-Art Technologies, Environmental Impacts and Possibilities for Waste Heat Recovery**](https://doi.org/10.1016/j.ijft.2019.100007) - **D. Brough, H. Jouhara (2020)**, *International Journal of Thermofluids*, 1-2, 100007. Thermomechanical energy balance of melting operations, recuperative burners, and flue gas waste heat recovery loops.
+- **Alloy Design for Recycled Aluminium: Strategies and Solutions** - **B. Prillhofer, H. Spenger, P. J. Uggowitzer (2014)**, *Light Metals 2014*, 1007-1012. Methods for designing high-performance wrought and cast alloys with expanded tolerance for Fe, Si, and Zn scrap tramps. *(DOI link removed: the previously cited DOI does not resolve to this work and no verified DOI was found in Crossref.)*
 
 ---
 

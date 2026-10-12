@@ -7,9 +7,11 @@
 <p align="center">
   <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai/stargazers"><img src="https://img.shields.io/github/stars/ioseba/awesome-industrial-metallurgy-ai?style=flat-square&color=f59e0b" alt="Stars"></a>
   <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai/network/members"><img src="https://img.shields.io/github/forks/ioseba/awesome-industrial-metallurgy-ai?style=flat-square&color=38bdf8" alt="Forks"></a>
+  <a href="https://github.com/ioseba/awesome-industrial-metallurgy-ai/actions"><img src="https://img.shields.io/github/actions/workflow/status/ioseba/awesome-industrial-metallurgy-ai/ci.yml?branch=main&style=flat-square&label=QA%20Tests" alt="QA Status"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-22c55e.svg?style=flat-square" alt="License: CC0 1.0"></a>
   <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor_Covenant-v2.1-blue.svg?style=flat-square" alt="Contributor Covenant"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-06b6d4.svg?style=flat-square" alt="PRs Welcome"></a>
+  <a href="https://www.linkedin.com/in/iiav"><img src="https://img.shields.io/badge/LinkedIn-iiav-0A66C2.svg?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
   <a href="https://github.com/ioseba"><img src="https://img.shields.io/badge/Curated_by-ioseba-64748b.svg?style=flat-square&logo=github" alt="Curated by ioseba"></a>
 </p>
 
